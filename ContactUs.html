@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Meown Blog</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ContactUs.css"> 
+</head>
+<body>
+    <header>
+        <h1><strong>Contact Us</strong></h1>
+        <nav>
+            <ul>
+                <li class="un"><a href="BlogPage.html">Blog Page</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-content">
+            <h2>Email Address:</h2>
+            <p>info@meownblog.com</p>
+
+            <h2>Mailing Address:</h2>
+            <p>Meown Blog<br>
+            123 Meown Street<br>
+            Catville, CA 12345</p>
+
+            <h2>Phone Number:</h2>
+            <p>+1 (555) 123-4567</p>
+
+            <button id="backButton" class="btn btn-primary">Back</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2024 Meown Blog. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            // Handle BACK button click
+            $("#backButton").click(function() {
+                window.history.back();
+            });
+        });
+    </script>
+</body>
+</html>
